@@ -7,10 +7,10 @@ x/=7 #NameError: name 'x' is not defined
 2x=7 #SyntaxError: invalid decimal literal
 x!=7 #False
 x !=7 #False
+x /=7 #False
 
 x2=7 #True
 _x=7 #TRue
-x /=7 #True
 
 #Play around with a few complex expressions, such as x = 2 + 4 * 5 – 6 / 3. Use parentheses to group the numbers in different ways and see how the result changes compared with the original ungrouped expression.
 
